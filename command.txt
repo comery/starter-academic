@@ -1,0 +1,4 @@
+# creat new post
+hugo new  --kind post post/my-article-name
+# creat new publication
+hugo new --kind publication publication/new-publication
