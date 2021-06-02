@@ -78,6 +78,9 @@ if you are not root, or you just want install for yourself, you need install add
 make
 make install
 make installcheck
+
+after installing the GD module, you need add pkgconfig to your env:
+PKG_CONFIG_PATH="xxx/libgd/lib/pkgconfig:$PKG_CONFIG_PATH"
 ```
 then, you can use cpan to insall GD module.
 
